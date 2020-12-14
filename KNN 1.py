@@ -68,7 +68,7 @@ for i in range(len(dataset[0])-1):
 	str_column_to_int(dataset, i)
 
 # Define the number of nearest neighbors
-num_neighbors = 2
+num_neighbors = 3
 
 # Define a test set (Ken's previous movie preferences)
 testset = [1, 1, 0, 1]
